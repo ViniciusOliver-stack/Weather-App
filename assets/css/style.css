@@ -11,19 +11,23 @@ body{
 
 #theme{
   position: absolute;
-  top: 6%;
-  right: 6%;
+  top: 3%;
+  right: 3%;
 }
-#theme button{
-  background: transparent;
-  cursor: pointer;
+
+#theme img{
+  width: 75%;
 }
 
 .container{
   position: relative;
-  width: 400px;
+  min-width: 320px;
+  max-width: 425px;
   height: 100px;
+  max-height: 500px;
+  margin-top: 3rem;
   padding: 2.8rem 3.2rem;
+
   overflow: hidden;
   border-radius: 1.8rem;
 
@@ -35,21 +39,22 @@ body{
   -webkit-backdrop-filter: blur(5px);
 }
 
+/*Search*/
 .search-box{
   width: 100%;
   height: min-content;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
 }
+
 .search-box input{
   color: #fff;
   background: none;
   border-bottom: 2px solid #ccc;
   padding-bottom: 10px;
   width: 80%;
-  font-size: clamp(1rem, 10vw , 2rem);
+  font-size: clamp(1rem, 7vw , 2rem);
   font-weight: 400;
 }
 
@@ -66,6 +71,7 @@ body{
   border-radius: 50%;
 }
 
+/*Weather*/
 .weather-box{
   text-align: center;
 }
@@ -78,10 +84,9 @@ body{
 .weather-box .temperature{
   position: relative;
   color: #fff;
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 400;
-  margin-top: 3rem;
-  margin-left: -1.6rem;
+  margin-left: -1.2rem;
 }
 
 .weather-box .temperature span{
@@ -160,34 +165,12 @@ body{
   }
 }
 
-
-
-@media (min-width: 320px) and (max-width: 425px){
-  #theme{
-    top: 2%;
-    width: 30px;
-  }
+@media (min-width: 768px) and (max-width: 1440px) {
   .container{
-    height: 480px !important;
-    margin: 3rem 2rem 1rem;
+    max-height: 550px;
   }
-
-  .weather-box img{
-    margin-top: 1rem;
-  }
-
-  .weather-box .temperature{
-    margin-top: 1rem;
-  }
-
-  .weather-details .humidity{
-    padding-left: .5rem;
-    justify-content: flex-start;
-  }
-  
-  .weather-details .wind{
-    padding-right: .5rem;
-    justify-content: flex-end;
+  #theme{
+    top: 6%;
+    right: 6%;
   }
 }
-

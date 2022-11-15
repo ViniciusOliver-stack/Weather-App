@@ -10,6 +10,11 @@
   outline: none;
 }
 
+button{
+  background: transparent;
+  cursor: pointer;
+}
+
 :root{
   font-size: 62.5%;
 }
