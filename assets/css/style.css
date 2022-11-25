@@ -9,16 +9,6 @@ body{
   position: relative;
 }
 
-#theme{
-  position: absolute;
-  top: 3%;
-  right: 3%;
-}
-
-#theme img{
-  width: 75%;
-}
-
 .container{
   position: relative;
   min-width: 320px;
@@ -26,7 +16,7 @@ body{
   height: 100px;
   max-height: 500px;
   margin-top: 3rem;
-  padding: 2.8rem 3.2rem;
+  padding: 2.8rem 1.2rem;
 
   overflow: hidden;
   border-radius: 1.8rem;
@@ -56,6 +46,10 @@ body{
   width: 80%;
   font-size: clamp(1rem, 7vw , 2rem);
   font-weight: 400;
+}
+
+input{
+  margin: 0 1rem;
 }
 
 .search-box input::placeholder{
@@ -168,9 +162,5 @@ body{
 @media (min-width: 768px) and (max-width: 1440px) {
   .container{
     max-height: 550px;
-  }
-  #theme{
-    top: 6%;
-    right: 6%;
   }
 }
