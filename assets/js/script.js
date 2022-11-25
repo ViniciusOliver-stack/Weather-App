@@ -56,7 +56,7 @@ search.addEventListener('click', () => {
           imageWeather.src = '.././assets/images/mist.svg'
           break
         default:
-          imageWeather.src = ''
+          imageWeather.src = '.././assets/images/mist.svg'
           break
       }
 
