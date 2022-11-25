@@ -4,7 +4,7 @@
 </div>
 
 ### 📁 Projeto
-Aplicação construida utilizando o JavaScript e a API [Open Weather Map](!https://openweathermap.org/api), que traz informação do clima da cidade pesquisada.
+Aplicação construida utilizando o JavaScript e a API [Open Weather Map](https://openweathermap.org/api), que traz informação do clima da cidade pesquisada.
 
 <img src="https://i.imgur.com/a9awtDD.png">
 
@@ -22,4 +22,4 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-Desenvolvido por Vinicius 🧡 | [Me acompanhe nas redes sociais](!https://www.linkedin.com/in/viniciussantos-oliveira/)
+Desenvolvido por Vinicius 🧡 | [Me acompanhe nas redes sociais](https://www.linkedin.com/in/viniciussantos-oliveira/)
